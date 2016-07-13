@@ -9,4 +9,3 @@ grep "x:[1-9][0-9][0-9][0-9]:" /etc/passwd | while read -r line ; do
     echo "$usuari"
     #echo -e "p@ssw0rd\np@ssw0rd" | (passwd --stdin $usuari)
 done
-
