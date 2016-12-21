@@ -1,0 +1,8 @@
+#!/bin/bash
+for i in $*
+do
+    if [[ ! -z $(who| grep $i) ]] 
+    then
+        echo "$i está conectado" 
+    fi
+done
